@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+body{
+    background: gainsboro;
+}
+#main #logo{
+    width:100px;
+    height: 100px;
+}
+#links a{
+    margin: 7px;
+    font-size: 28px;
+    font-family: "Caprasimo";
+    transition: 0.3s ease;
+}
+aside{
+    position:absolute ;
+    padding:7px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    backdrop-filter: blur(7px);
+    box-shadow:0 0 7px black;
+    align-items: center;
+    transform: translateX(-110%);
+    transition: 0.5s ease;
+}
+#menu{
+    transition: 0.3s ease;
+}
+#menu:hover{
+    border:1px solid white
+}
+#menu span{
+    transition: 0.3s ease;
+}
+#menu:hover span{
+    background: white;
+}
+aside{
+    z-index: 10;
+}
+aside.active{
+    transform: translateX(0);
+    transition: 0.5s ease;
+    z-index: 10;
+}
+aside a{
+    margin: 5px;
+    font-size: 28px;
+    transition: 0.3s ease;
+}
+#mainimg{
+    width:96%;
+    height: 450px;
+    margin:10px auto;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+#mainimg img{
+    width:98%;
+    height:440px;
+    display: flex;
+    margin:0px auto;
+    border-radius: 7px;
+}
+#service{
+    position: relative;
+    display: flex;
+    margin-left:21px;
+}
+#service img{
+    width:40%;
+    height: 100%;
+}
+#service #left{
+    width:50%;
+    background: silver;
+    height: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service #left h1{
+    font-size: 39px;
+    font-family: "Caprasimo";
+    color:white;
+}
+#high{
+    margin-top: 80px;
+    position: absolute;
+}
+#high #left{
+    width:50%;
+    background: silver;
+    height: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#high #left h1{
+    font-size: 39px;
+    font-family: "Caprasimo";
+    color:white;
+}
+#high img{
+    width:40%;
+    height: 100%;
+}
+#special{
+    position: relative;
+    margin-left:21px;
+    margin-top: 398px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#special #left{
+    width:50%;
+    background: silver;
+    height: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#special #left h1{
+    font-size: 39px;
+    font-family: "Caprasimo";
+    color:white;
+}
+#special img{
+    width:40%;
+    height: 100%;
+}

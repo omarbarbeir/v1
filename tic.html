@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tic.css">
+    <link rel="stylesheet" href="output.css">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    
+    <div id="main">
+        <header class="bg-blue-950 h-28 p-6 flex justify-between items-center">
+            <img id="logo" src="./img/22.png">
+
+            <div id="links" class="sm:hidden md:hidden lg:block xl:block 2xl:block">
+                <a href="#" class=" text-red-500 font-bold italic hover:text-red-700">SERVICE</a>
+                <a href="#" class=" text-red-500 font-bold italic hover:text-red-700">MENU</a>
+                <a href="#" class=" text-red-500 font-bold italic hover:text-red-700">CONTACT</a>
+            </div>
+
+            <div id="menu" class="w-12 h-12 flex flex-col justify-evenly items-center cursor-pointer lg:hidden border border-red-400 rounded-md">
+                <span class="w-8 h-0.5 bg-red-500"></span>
+                <span class="w-8 h-0.5 bg-red-500"></span>
+                <span class="w-8 h-0.5 bg-red-500"></span>
+            </div>
+        </header>
+
+        <aside id="aside" class="bg-transparent lg:hidden">
+            <a href="#" class=" text-red-800 font-bold italic hover:text-red-600">SERVICE</a>
+            <a href="#" class=" text-red-800 font-bold italic hover:text-red-600">MENU</a>
+            <a href="#" class=" text-red-800 font-bold italic hover:text-red-600">CONTACT</a>
+        </aside>
+
+        <div id="mainimg">
+            <img src="./img/1.png">
+        </div>
+
+        <div id="info" class="mt-28">
+            <div id="service" class="bg-white h-60 w-3/4 flex justify-between items-center p-2">
+                <div id="left">
+                    <h1 class="lg:text-4xl">Service and delivery are available 24 hours</h1>
+                </div>
+                <img src="./img/24.png">
+            </div>
+
+            <div id="high" class="bg-white h-60 w-3/4 flex justify-between items-center p-2 absolute right-4">
+                <div id="left" >
+                    <h1 class="lg:text-4xl">High quality in all kinds of food and drinks</h1>
+                </div>
+                <img src="./img/23.jpg">
+            </div>
+
+            <div id="special" class="bg-white h-60 w-3/4 p-2">
+                <div id="left">
+                    <h1 class="lg:text-4xl">Special orders are available</h1>
+                </div>
+                <img src="./img/25.jpg" class="w-2 h-2">
+            </div>
+
+
+        </div>
+        
+
+    </div>
+
+
+
+
+
+<script src="tic.js"></script>    
+</body>
+</html>
